@@ -1,0 +1,7 @@
+{application,beanstalk,
+              [{description,"Beanstalkd client library"},
+               {vsn,"0.0.1"},
+               {modules,[beanstalk, beanstalk_command, beanstalk_connection, beanstalk_response, beanstalk_yaml]},
+               {registered,[]},
+               {env,[]},
+               {applications,[kernel,stdlib]}]}.
